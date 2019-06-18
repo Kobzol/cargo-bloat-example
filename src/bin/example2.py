@@ -5,7 +5,7 @@ sock = ctx.socket(zmq.DEALER)
 sock.set_hwm(8192 * 2)
 sock.bind("tcp://0.0.0.0:9001")
 
-count = 5000
+count = 500000
 
 for _ in range(count):
     sock.send_multipart([b"msg"])
