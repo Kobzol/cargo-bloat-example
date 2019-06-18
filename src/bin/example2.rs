@@ -11,6 +11,8 @@ use tokio_zmq::{prelude::*, Dealer, Multipart};
 use zmq::Message;
 
 fn main() {
+    env_logger::init();
+
     let (request_sender, request_receiver) = channel::unbounded::<Multipart>();
     let (reply_sender, reply_receiver) = mpsc::unbounded::<Multipart>();
 
