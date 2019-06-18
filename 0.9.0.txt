@@ -1,0 +1,616 @@
+Waiting 0
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+Sending 0
+SendingLock 0
+Waiting 1
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+Waiting 2
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Sending 1
+SendingLock 1
+Waiting 3
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+Sending 2
+SendingLock 2
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+Sending 3
+SendingLock 3
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("0")
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("1")
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("2")
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("3")
+[2019-06-18T17:18:27Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("0")
+Receive 0
+ReceiveLock 0
+BeforeSend: 0
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+AfterSend: 0
+WaitingFinished 0
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("1")
+Receive 1
+ReceiveLock 1
+Waiting 4
+Sending 4
+SendingLock 4
+BeforeSend: 1
+WaitingFinished 1
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+Waiting 5
+AfterSend: 1
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Sending 5
+SendingLock 5
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("2")
+Receive 2
+ReceiveLock 2
+BeforeSend: 2
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 2
+WaitingFinished 2
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("3")
+Sending 6
+SendingLock 6
+Receive 3
+ReceiveLock 3
+BeforeSend: 3
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+Waiting 6
+AfterSend: 3
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 3
+Waiting 7
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("4")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("5")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("6")
+Sending 7
+SendingLock 7
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("4")
+Receive 4
+ReceiveLock 4
+BeforeSend: 4
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+AfterSend: 4
+WaitingFinished 4
+Waiting 8
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("7")
+Sending 8
+SendingLock 8
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("5")
+Receive 5
+ReceiveLock 5
+BeforeSend: 5
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 5
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+WaitingFinished 5
+Waiting 9
+Sending 9
+SendingLock 9
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("6")
+Receive 6
+ReceiveLock 6
+BeforeSend: 6
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 6
+WaitingFinished 6
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("7")
+Waiting 10
+Sending 10
+SendingLock 10
+Receive 7
+ReceiveLock 7
+BeforeSend: 7
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 7
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 7
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("8")
+Waiting 11
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("9")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("10")
+Sending 11
+SendingLock 11
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("11")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("8")
+Receive 8
+ReceiveLock 8
+BeforeSend: 8
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+AfterSend: 8
+WaitingFinished 8
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("9")
+Waiting 12
+Sending 12
+SendingLock 12
+Receive 9
+ReceiveLock 9
+BeforeSend: 9
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+WaitingFinished 9
+AfterSend: 9
+Waiting 13
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Sending 13
+SendingLock 13
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("10")
+Receive 10
+ReceiveLock 10
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 10
+AfterSend: 10
+WaitingFinished 10
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+Waiting 14
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("12")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("13")
+Sending 14
+SendingLock 14
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("11")
+Receive 11
+ReceiveLock 11
+BeforeSend: 11
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 11
+WaitingFinished 11
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 15
+Sending 15
+SendingLock 15
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("12")
+Receive 12
+ReceiveLock 12
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 12
+AfterSend: 12
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 12
+Waiting 16
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("14")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("15")
+Sending 16
+SendingLock 16
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("13")
+Receive 13
+ReceiveLock 13
+BeforeSend: 13
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 13
+WaitingFinished 13
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 17
+Sending 17
+SendingLock 17
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("14")
+Receive 14
+ReceiveLock 14
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 14
+AfterSend: 14
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 14
+Waiting 18
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("16")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("17")
+Sending 18
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("15")
+SendingLock 18
+Receive 15
+ReceiveLock 15
+BeforeSend: 15
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 15
+WaitingFinished 15
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 19
+Sending 19
+SendingLock 19
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("16")
+Receive 16
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+ReceiveLock 16
+BeforeSend: 16
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+AfterSend: 16
+WaitingFinished 16
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("18")
+Waiting 20
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("19")
+Sending 20
+SendingLock 20
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("17")
+Receive 17
+ReceiveLock 17
+BeforeSend: 17
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 17
+WaitingFinished 17
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 21
+Sending 21
+SendingLock 21
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("18")
+Receive 18
+ReceiveLock 18
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 18
+AfterSend: 18
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 18
+Waiting 22
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("20")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("21")
+Sending 22
+SendingLock 22
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("19")
+Receive 19
+ReceiveLock 19
+BeforeSend: 19
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 19
+WaitingFinished 19
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 23
+Sending 23
+SendingLock 23
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("20")
+Receive 20
+ReceiveLock 20
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 20
+AfterSend: 20
+WaitingFinished 20
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+Waiting 24
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("22")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("23")
+Sending 24
+SendingLock 24
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("21")
+Receive 21
+ReceiveLock 21
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 21
+AfterSend: 21
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+WaitingFinished 21
+Waiting 25
+Sending 25
+SendingLock 25
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("22")
+Receive 22
+ReceiveLock 22
+BeforeSend: 22
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 22
+WaitingFinished 22
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("23")
+Sending 26
+SendingLock 26
+Waiting 26
+Receive 23
+ReceiveLock 23
+BeforeSend: 23
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 23
+WaitingFinished 23
+Sending 27
+SendingLock 27
+Waiting 27
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("24")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("25")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("26")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("27")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("24")
+Receive 24
+ReceiveLock 24
+BeforeSend: 24
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+AfterSend: 24
+WaitingFinished 24
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("25")
+Receive 25
+ReceiveLock 25
+Sending 28
+SendingLock 28
+BeforeSend: 25
+Waiting 28
+AfterSend: 25
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+WaitingFinished 25
+Waiting 29
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Sending 29
+SendingLock 29
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("26")
+Receive 26
+ReceiveLock 26
+BeforeSend: 26
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 26
+WaitingFinished 26
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("27")
+Waiting 30
+Sending 30
+SendingLock 30
+Receive 27
+ReceiveLock 27
+BeforeSend: 27
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 27
+WaitingFinished 27
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+Waiting 31
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("28")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("29")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("30")
+Sending 31
+SendingLock 31
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("28")
+Receive 28
+ReceiveLock 28
+BeforeSend: 28
+AfterSend: 28
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("29")
+WaitingFinished 28
+Receive 29
+ReceiveLock 29
+Waiting 32
+Sending 32
+SendingLock 32
+BeforeSend: 29
+AfterSend: 29
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+WaitingFinished 29
+Waiting 33
+Sending 33
+SendingLock 33
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("30")
+Receive 30
+ReceiveLock 30
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 30
+AfterSend: 30
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 30
+Waiting 34
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("31")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("32")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("33")
+Sending 34
+SendingLock 34
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("31")
+Receive 31
+ReceiveLock 31
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+BeforeSend: 31
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("34")
+WaitingFinished 31
+AfterSend: 31
+Waiting 35
+Sending 35
+SendingLock 35
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("32")
+Receive 32
+ReceiveLock 32
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 32
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+AfterSend: 32
+WaitingFinished 32
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("33")
+Sending 36
+SendingLock 36
+Receive 33
+ReceiveLock 33
+Waiting 36
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 33
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+AfterSend: 33
+WaitingFinished 33
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("35")
+Waiting 37
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("36")
+Sending 37
+SendingLock 37
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("34")
+Receive 34
+ReceiveLock 34
+BeforeSend: 34
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 34
+WaitingFinished 34
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 38
+Sending 38
+SendingLock 38
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("35")
+Receive 35
+ReceiveLock 35
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 35
+AfterSend: 35
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 35
+Waiting 39
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("37")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("38")
+Sending 39
+SendingLock 39
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("36")
+Receive 36
+ReceiveLock 36
+BeforeSend: 36
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 36
+WaitingFinished 36
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 40
+Sending 40
+SendingLock 40
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("37")
+Receive 37
+ReceiveLock 37
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 37
+AfterSend: 37
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 37
+Waiting 41
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("39")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("40")
+Sending 41
+SendingLock 41
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("38")
+Receive 38
+ReceiveLock 38
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 38
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+AfterSend: 38
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 38
+Waiting 42
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("41")
+Sending 42
+SendingLock 42
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("39")
+Receive 39
+ReceiveLock 39
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 39
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+AfterSend: 39
+WaitingFinished 39
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+Waiting 43
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("42")
+Sending 43
+SendingLock 43
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("40")
+Receive 40
+ReceiveLock 40
+BeforeSend: 40
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 40
+WaitingFinished 40
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Waiting 44
+Sending 44
+SendingLock 44
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("41")
+Receive 41
+ReceiveLock 41
+BeforeSend: 41
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 41
+WaitingFinished 41
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("42")
+Waiting 45
+Sending 45
+SendingLock 45
+Receive 42
+ReceiveLock 42
+BeforeSend: 42
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 42
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 42
+Waiting 46
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("43")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("44")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("45")
+Sending 46
+SendingLock 46
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("43")
+Receive 43
+ReceiveLock 43
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 43
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+AfterSend: 43
+WaitingFinished 43
+Waiting 47
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("44")
+Sending 47
+SendingLock 47
+Receive 44
+ReceiveLock 44
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 44
+AfterSend: 44
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+WaitingFinished 44
+Waiting 48
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("46")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("47")
+Sending 48
+SendingLock 48
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("45")
+Receive 45
+ReceiveLock 45
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+BeforeSend: 45
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+AfterSend: 45
+WaitingFinished 45
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+Waiting 49
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("48")
+Sending 49
+SendingLock 49
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("46")
+Receive 46
+ReceiveLock 46
+BeforeSend: 46
+AfterSend: 46
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+WaitingFinished 46
+Waiting 50
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+Sending 50
+SendingLock 50
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("47")
+Receive 47
+ReceiveLock 47
+BeforeSend: 47
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 47
+WaitingFinished 47
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] ResponseFuture: received: Some("48")
+Sending 51
+SendingLock 51
+Receive 48
+ReceiveLock 48
+Waiting 51
+BeforeSend: 48
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+AfterSend: 48
+WaitingFinished 48
+Waiting 52
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("49")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("50")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("51")
+Sending 52
+SendingLock 52
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called start_send
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Created sink
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::future_types] RequestFuture: sending: Some("52")
+[2019-06-18T17:18:33Z DEBUG tokio_zmq::async_types::sink_stream] Called poll_complete
