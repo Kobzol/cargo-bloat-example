@@ -18,6 +18,7 @@ struct RequestCtx {
 }
 
 fn main() {
+    std::env::set_var("RUST_LOG", "tokio_zmq=trace");
     env_logger::init();
 
     let ctx = Arc::new(zmq::Context::new());
@@ -45,9 +46,10 @@ fn main() {
             }
 
             let data = id.to_string();
-            Multipart::from(vec!(Message::from_slice(&data.as_bytes())))
+            Multipart::from(vec!(Message::from(&data)))
         }).map_err(|_| {
         panic!();
+        #[allow(unreachable_code)]
         tokio_zmq::Error::Sink
     }).forward(sink);
 

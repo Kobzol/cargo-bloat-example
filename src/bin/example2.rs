@@ -11,6 +11,7 @@ use tokio_zmq::{prelude::*, Dealer, Multipart};
 use zmq::Message;
 
 fn main() {
+    std::env::set_var("RUST_LOG", "tokio_zmq=trace");
     env_logger::init();
 
     let (request_sender, request_receiver) = channel::unbounded::<Multipart>();
@@ -29,9 +30,8 @@ fn main() {
         let sender = reply_sender.clone();
         thread::spawn(move || {
             while let Ok(_) = receiver.recv() {
-                let data = vec![1, 2, 3];
-                let message = Message::from_slice(&data);
-                let multipart = Multipart::from(vec![message]);
+                let message = Message::from(&vec![1, 2, 3]);
+                let multipart = Multipart::from(message);
                 sender.unbounded_send(multipart).unwrap();
             }
         });
@@ -47,6 +47,7 @@ fn main() {
     let send_process = reply_receiver
         .map_err(|_| {
             panic!();
+            #[allow(unreachable_code)]
             tokio_zmq::Error::Sink
         })
         .forward(sink);
