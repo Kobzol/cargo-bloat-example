@@ -1,8 +1,5 @@
-on: # rebuild any PRs and main branch changes
-  pull_request:
-  push:
-    branches:
-      - master
+on:
+  pull_request_target:
 
 name: bloat
 
@@ -16,6 +13,16 @@ jobs:
         with:
           toolchain: stable
           override: true
+      - name: Cache cargo registry
+        uses: actions/cache@v1
+        with:
+          path: ~/.cargo/registry
+          key: bloat-${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+      - name: Cache cargo index
+        uses: actions/cache@v1
+        with:
+          path: ~/.cargo/git
+          key: bloat-${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
       - name: Run cargo bloat
         uses: kobzol/cargo-bloat-action@master
         with:
